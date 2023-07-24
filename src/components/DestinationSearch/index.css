@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.bgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.destinationSearchCard {
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0px 5px 10px 0px #0f172a;
+}
+
+.heading {
+    color: #252627;
+    text-align: center;
+}
+.inputContainer {
+    background-color: #f1f5f9;
+    border: 0px;
+    border-radius: 10px;
+    align-self: center;
+    height: 38px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.input {
+    background-color: #f1f5f9;
+    outline: none;
+    border: none;
+}
+
+.searchIcon {
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
